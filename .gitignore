@@ -2,3 +2,4 @@
 source.zip
 /safari
 .DS_Store
+*.pem
