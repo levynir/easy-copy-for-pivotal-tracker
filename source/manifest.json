@@ -4,8 +4,13 @@
   "version": "0.2.0",
   "description": "Copy the story ID, Name, Link (and More) fast and easy with a single click on the story",
   "page_action": {
-    "default_icon": "icon.jpg",
+    "default_icon": "icon128.png",
     "default_title": "Pivotal Tracker Easy Copy Ex"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   },
   "content_scripts" : [
     {
