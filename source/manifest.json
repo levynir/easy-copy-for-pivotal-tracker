@@ -1,11 +1,11 @@
 {
-  "name": "Pivotal Tracker Easy Copy(fukayatsu version)",
+  "name": "Pivotal Tracker Easy Copy Ex",
   "manifest_version": 2,
   "version": "0.2.0",
   "description": "Copy the story ID, Name, Link (and More) fast and easy with a single click on the story",
   "page_action": {
     "default_icon": "icon.jpg",
-    "default_title": "Pivotal Tracker Easy Copy(fukayatsu version)"
+    "default_title": "Pivotal Tracker Easy Copy Ex"
   },
   "content_scripts" : [
     {
