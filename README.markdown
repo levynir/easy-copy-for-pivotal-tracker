@@ -1,4 +1,4 @@
-Pivotal Tracker Easy Copy Ex
+Easy Copy for Pivotal Tracker
 
 ## What is it?
 Install it, and when you click a story the extension will copy the story ID, LINK or NAME to your clipboard(Tested on OS X Chrome)
@@ -10,7 +10,7 @@ This is a fork of [pgericson/Pivotal-Tracker-Easy-Copy](https://github.com/pgeri
 - use version 2 manifest
 
 ## Install
-D&D the [.crx](https://github.com/fukayatsu/Pivotal-Tracker-Easy-Copy/blob/master/build/Pivotal-Tracker-Easy-Copy.crx?raw=true) file into the extensions page(chrome://chrome/extensions/) of Chrome or Chromium
+[Chrome Web Store - Easy Copy for Pivotal Tracker](https://chrome.google.com/webstore/detail/easy-copy-for-pivotal-tra/mmlaaianjmomeolpmmhdcmjnnmmoalbh)
 
 
 

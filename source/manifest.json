@@ -1,7 +1,7 @@
 {
-  "name": "Pivotal Tracker Easy Copy Ex",
+  "name": "Easy Copy for Pivotal Tracker",
   "manifest_version": 2,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Copy the story ID, Name, Link (and More) fast and easy with a single click on the story",
   "page_action": {
     "default_icon": "icon128.png",
