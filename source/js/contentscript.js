@@ -1,7 +1,7 @@
 chrome.extension.sendMessage({'action': 'pageStart'});
 
 $(document).on('click', '.item', function(e){
-  var id = $(this).attr('id').replace(/.*?(\d+).*/,"$1");
+  var id = $(this).attr('id').replace(/.*?story(\d+).*/,"$1");
   var name = $(this).find('.story_name').text();
   var link = "https://www.pivotaltracker.com/story/show/" + id;
 
