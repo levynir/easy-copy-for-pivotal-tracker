@@ -18,7 +18,7 @@
         "https://www.pivotaltracker.com/*",
         "http://www.pivotaltracker.com/*"
       ],
-      "js" : ["js/jquery.js", "js/contentscript.js"],
+      "js" : ["js/jquery-1.9.1.min.js", "js/contentscript.js"],
       "run_at": "document_start"
     }
   ],
