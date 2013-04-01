@@ -1,16 +1,16 @@
 {
   "name": "Easy Copy for Pivotal Tracker",
   "manifest_version": 2,
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Copy the story ID, Name, Link (and More) fast and easy with a single click on the story",
   "page_action": {
-    "default_icon": "icon128.png",
+    "default_icon": "img/icon128.png",
     "default_title": "Pivotal Tracker Easy Copy Ex"
   },
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
   },
   "content_scripts" : [
     {
@@ -18,7 +18,7 @@
         "https://www.pivotaltracker.com/*",
         "http://www.pivotaltracker.com/*"
       ],
-      "js" : ["jquery.js", "contentscript.js"],
+      "js" : ["js/jquery.js", "js/contentscript.js"],
       "run_at": "document_start"
     }
   ],
