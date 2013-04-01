@@ -1,4 +1,6 @@
-chrome.extension.sendMessage({'action': 'pageStart'});
+$(function() {
+  chrome.extension.sendMessage({'action': 'pageStart'});
+});
 
 $(document).on('click', '.item', function(e){
   var id = $(this).attr('id').replace(/.*?story(\d+).*/,"$1");
