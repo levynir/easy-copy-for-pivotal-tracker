@@ -8,23 +8,16 @@ $(document).on('click', '.item', function(e){
   var link = "https://www.pivotaltracker.com/story/show/" + id;
 
   var clip;
-  if (e.metaKey && e.shiftKey) {
-    clip = "[" + name + "](" + link + ")";
-  } else if (e.metaKey && e.altKey) {
-    clip = name + " #" + id;
-  } else if (e.altKey) {
-    clip = id;
-  } else if (e.shiftKey) {
-    clip = link;
-  } else if (e.metaKey) {
-    clip = name;
+  if ( e.shiftKey) {
+    clip = "[" + id + "] " + name + "<br>(" + link + ")";
   }
-
+  
   if (clip) {
     $('<div id="copy-msg">')
       .css({ color: 'black' })
       .html(clip)
       .prependTo('#status');
+    clip = $('#copy-msg').text(); //this is in order to change the BR to newline
     $('#status')
       .fadeIn(10)
       .delay(1000)
