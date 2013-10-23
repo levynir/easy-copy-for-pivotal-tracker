@@ -1,42 +1,33 @@
-Easy Copy for Pivotal Tracker
+Name Copy for Pivotal Tracker
 
 ## What is it?
-Install it, and when you click a story the extension will copy the story ID, LINK or NAME to your clipboard(Tested on OS X Chrome)
+Install it, and when you click a story the extension will copy the story ID, LINK and NAME to your clipboard(Tested on Windows Chrome)
 
-This is a fork of [pgericson/Pivotal-Tracker-Easy-Copy](https://github.com/pgericson/Pivotal-Tracker-Easy-Copy)
+This is a fork of https://github.com/fukayatsu/easy-copy-for-pivotal-tracker
 
 ## In this branch
-- support more keys
-- use version 2 manifest
+Copy only when "SHift" key is pressed, 
+Copy always the name, link AND id
+Id will be in format [#12343] so it can be used with the github/bitbuck post-commit hooks
 
 ## Install
-[Chrome Web Store - Easy Copy for Pivotal Tracker](https://chrome.google.com/webstore/detail/easy-copy-for-pivotal-tra/mmlaaianjmomeolpmmhdcmjnnmmoalbh)
-
+DIY
 
 
 ## Usage
 support following keys with left-click:
 
-      Alt          #=> id
-      Shift        #=> link
-      Meta         #=> name
-      Meta + Alt   #=> name #id
-      Meta + Shift #=> [name](link)
+      Shift        #=> [#id] - name \n link
 
 
 ## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Don't - this is not maintained
 
 ## LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2012 fukayatsu (Atsuo Fukaya)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
